@@ -47,6 +47,7 @@ class Search : AppCompatActivity() {
                 R.id.cart -> {
                     val intent = Intent(this, Cart::class.java)
                     startActivity(intent)
+
                 }
             }
             true
